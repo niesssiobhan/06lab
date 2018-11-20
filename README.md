@@ -13,7 +13,7 @@ Feature #1: Obtain Longitude and Latitude
 Estimate of time needed to complete: 2 hours
 Start time: 10:30am
 Finish time: 11:58am
-Actual time needed to complete: 
+Actual time needed to complete: 1 hour 30 minutes 
 
 # Lab 06 -back-end 
 
