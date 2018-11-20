@@ -26,14 +26,13 @@ The problem doamin for this application, called City Explorer, is so that a user
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
-
+The steps that a user would have to take to be able to build this app on their own machine and get it up and running would be they first they need to go to our git hub page and clone the repo. Then in their terminal they would need to run the command npm init. Then they will have to set up all of the package files. These files would include, express, cors, dotenv, and superagent. Once that is done they would need, still in their terminal, run the npm init command. After these steps they would now be able to run our app on their own device.
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. --> A description of the application 
-
+<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. --> A description of the application design is to work the front-end and the back-end. Creatijng the server in the back-end so that the user side is able to talk back and forth with requests and responses. The langues that are being used are JQuery, HTML, CSS, JSON. The dependencies that that are being used are express, cors, dotenv, and superagent. 
 
 ## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. 
 
 11-20-2018 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource.
 
