@@ -26,7 +26,7 @@ function searchToLatLong(query) {
 function Location(data) {
   this.formatted_query = data.formatted_address;
   this.latitude = data.geometry.location.lat;
-  this.longitdue = data.geometry.location.lng;
+  this.longitude = data.geometry.location.lng;
 }
 
 app.listen(PORT, () => console.log(`App is up on ${PORT}`));
