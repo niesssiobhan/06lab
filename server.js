@@ -27,12 +27,13 @@ function searchToLatLong(query) {
   .catch((error, res) => handleError(error, res));
 }
 
+//Error handler
 function handleError(error, res) {
   console.error(error);
   if (res) res.status(500).send('sorry something broke');
 }
 
-
+//Models
 function Location(query, data) {
   this.search_query = query;
   this.formatted_query = data.formatted_address;
